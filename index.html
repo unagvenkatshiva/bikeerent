@@ -159,41 +159,35 @@
 
     <div class="card">
 
-      <form>
+      <form 
+          action="https://docs.google.com/forms/d/e/YOUR_FORM_ID/formResponse"
+          method="POST"
+          target="_blank">
+        
+          <input type="text" name="entry.111111111" placeholder="Full Name" required>
 
-        <input type="text" placeholder="Full Name" required />
+          <input type="tel" name="entry.222222222" placeholder="Mobile Number" required>
+        
+          <select name="entry.333333333" required>
+            <option value="">Select Bike</option>
+            <option>Scooter</option>
+            <option>Commuter Bike</option>
+            <option>Royal Enfield</option>
+          </select>
+        
+          <select name="entry.444444444" required>
+            <option value="">Rental Plan</option>
+            <option>Daily</option>
+            <option>Weekly</option>
+            <option>Monthly</option>
+          </select>
+        
+          <textarea name="entry.555555555" placeholder="Delivery Address"></textarea>
 
-        <input type="tel" placeholder="Mobile Number" required />
+          <button type="submit">Submit Booking</button>
+</form>
 
-        <select required>
 
-          <option value="">Select Bike</option>
-
-          <option>Scooter</option>
-
-          <option>Commuter Bike</option>
-
-          <option>Royal Enfield</option>
-
-        </select>
-
-        <select required>
-
-          <option value="">Rental Plan</option>
-
-          <option>Daily</option>
-
-          <option>Weekly</option>
-
-          <option>Monthly</option>
-
-        </select>
-
-        <textarea placeholder="Delivery Address"></textarea>
-
-        <button type="submit">Submit Booking</button>
-
-      </form>
 
     </div>
 
@@ -243,6 +237,7 @@
 
 
 </html>
+
 
 
 
